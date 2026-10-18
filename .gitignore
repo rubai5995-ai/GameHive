@@ -1,0 +1,55 @@
+
+# ===========================
+# GameHive - Git Ignore
+# ===========================
+
+# Maven build files
+target/
+**/target/
+
+# Maven Wrapper
+# Keep the Maven wrapper files in Git
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nbgradle/
+.nb-gradle/
+
+# Other build directories
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+*~
